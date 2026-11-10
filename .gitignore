@@ -1,0 +1,15 @@
+# Local environment
+.DS_Store
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Datasets and training artifacts
+/data/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+/advanced_ensemble_results.png
+/ensemble_strategy_comparison.png
